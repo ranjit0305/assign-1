@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Basic page</title>
+    </head>
+    <body style="background-color:rgb(234, 232, 122);">
+        <center><h1>BASIC PAGE </h1></center>
+        <h1>paragraph</h1>
+        <p>
+            Paragraphs are the building blocks of papers.
+            Many students define paragraphs in terms of length:
+            a paragraph is a group of at least five sentences, a paragraph is half a page long, etc.
+            In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. 
+            A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). 
+        </p>
+        <h1>Image </h1>
+        <img src="1.jpeg" width="200" height="200">
+        <style>
+            table,th,td{
+                border:2px solid green;
+            }
+        </style>
+        <h1>Table</h1>
+        <table style="width:100%">
+            <tr>
+                <td>Players</td>
+                <td>dhoni</td>
+                <td>raina</td>
+                <td>jadeja</td>
+            </tr>
+            <tr>
+                <td>Runs</td>
+                <td>4000</td>
+                <td>5000</td>
+                <td>2000</td>
+            </tr>
+        </table>
+        <h1>Audio</h1>
+        <audio controls>
+            <source src="1.mp3" type="audio/mpeg">
+        </audio>
+        <h1>Video</h1>
+        <video width="320" height="240" controls>
+            <source src="1.mp4" type="video/mp4">
+        </video>
+        <h2>Sample Form</h2>
+    <form action="submit_action.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="subscribe">Do you want to subscribe</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Yes, I want to subscribe</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    </body>
+</html>
